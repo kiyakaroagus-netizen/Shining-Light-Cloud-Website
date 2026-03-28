@@ -1,0 +1,84 @@
+/* ===== RESET ===== */
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: linear-gradient(to right, #6fb1fc, #4364f7);
+    padding: 15px 40px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ===== SECTION ===== */
+.profile-section {
+    min-height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== BOX PROFIL ===== */
+.profile-box {
+    background: rgba(255,255,255,0.2);
+    width: 420px;
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+/* ===== TABEL ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.label {
+    font-weight: bold;
+    width: 40%;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #333;
+}

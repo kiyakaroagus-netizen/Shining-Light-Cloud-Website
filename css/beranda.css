@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(to right, #6fb1fc, #4364f7);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* SECTION UMUM */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.hero h1 {
+    font-size: 64px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+/* ABOUT */
+.about {
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.visi, .misi {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+}
+
+/* teks visi & misi rata kiri */
+.visi ul {
+    text-align: left;
+}
+.misi ul {
+    text-align: left;
+}
+
+/* TEAM */
+.team {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.team-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.member {
+    text-decoration: none;
+    color: white;
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-8px);
+    background: rgba(255,255,255,0.35);
+}
+
+/* ACTIVITY */
+.activity {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+.activity ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* JOIN */
+.join {
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.join ul {
+    list-style: none;   /* hapus bullet */
+    padding: 0;         /* hapus jarak kiri default */
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
